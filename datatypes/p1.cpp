@@ -14,6 +14,8 @@ int main()
     std::cout << std::setw(16) << "double:" << sizeof(double) << " bytes\n";
     std::cout << std::setw(16) << "long double:" << sizeof(long double) << " bytes\n";
 
+    int x=0;
+    std::cout << std::setw(16) << "int x:" << sizeof(x) << " bytes\n";
     return 0;
 }
 
